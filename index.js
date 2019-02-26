@@ -7,6 +7,10 @@ function theBeatlesPlay(magician, instruments) {
   return arr;
 }
 
-function johnLennonFacs(){
-  
+function johnLennonFacs(facts){
+  let i=0;
+  while(i<facts.length){
+    facts[i] +=`${facts[i]}!!!`;
+  }
+  return facts;
 }
