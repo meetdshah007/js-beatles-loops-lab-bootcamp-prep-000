@@ -16,10 +16,10 @@ function johnLennonFacs(facts){
   return facts;
 }
 
-function iLoveTheBeatles(num1, num2) {
+function iLoveTheBeatles(num) {
   const arr = [];
   do {
     arr.push("I love the Beatles!");
-  }while(num1);
+  }while(num<15);
   return arr;
 }
